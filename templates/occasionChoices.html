@@ -1,0 +1,29 @@
+<template name="occasionChoices">
+  <div class="valign-wrapper title-bar">
+    <span class="task-title">Get Dressed</span>
+  </div>
+  <hr>
+  <div class="valign-wrapper subtitle-bar">
+    <span class="subtitle">SELECT THE OCCASION</span>
+  </div>
+
+  
+  <div class="container">
+    <div class="valign-wrapper button">
+      <a class="button-text casual" href="/outfits/casual">CASUAL</a>
+    </div>
+    <div class="divider"></div>
+    <div class="valign-wrapper button">
+      <a class="button-text work" href="/outfits/work">WORK</a>
+    </div>
+    <div class="divider"></div>
+    <div class="valign-wrapper button">
+      <a class="button-text formal" href="/outfits/formal">FORMAL</a>
+    </div>
+    <div class="divider"></div>
+    <hr class="short-rule">
+      <div class="sign-up">
+        <a class="waves-effect btn-flat col s4 push-s4" href="{{pathFor route='dashboard'}}">Back</a>
+      </div>
+  </div>
+</template>

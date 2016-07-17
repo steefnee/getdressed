@@ -1,0 +1,36 @@
+<template name="dashboard">
+  <div class="container">
+        <p><a href="#" class="logout">Logout</a></p>  
+
+    <div class="row">
+        <div class="top-section"> <!-- top section w/ username -->
+            <div class="circle">Hello there!</div>
+
+            <h5 class="user-name">{{currentUser.username}}</h5>  
+        </div>
+        <div class="divider"></div>
+        <div class="dash-menu"> <!-- menu bar -->
+            <div class="to-do-section valign-wrapper">
+              <span class="ion-ios-camera-outline"></span>
+              <a class="to-do" href="{{pathFor route='additem'}}">Add an item</a>
+            </div>
+            <div class="divider"></div>
+            <div class="to-do-section valign-wrapper">
+              <span class="ion-ios-heart-outline"></span>
+              <a class="to-do" href="{{pathFor route='occasionChoices'}}">Get dressed</a>
+            </div>
+            <div class="divider"></div>
+            <div class="to-do-section valign-wrapper">
+              <span class="ion-ios-eye-outline"></span>             
+              <p class="to-do">View all items</p>
+            </div>
+            <div class="divider"></div>
+            <div class="to-do-section valign-wrapper">
+              <span class="ion-ios-clock-outline"></span>
+              <p class="to-do">Recent outfits</p>
+            </div>
+        </div>
+    </div>
+  
+  </div>
+</template>  

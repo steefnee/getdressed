@@ -1,0 +1,43 @@
+<template name="addItemTag">
+  <div class="valign-wrapper title-bar">
+    <span class="task-title">Add New Item</span>
+  </div>
+  <hr>
+  
+  <div class="container addItemContainer">
+    <div class="itemPhoto"><img src="{{photo}}"></div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        
+        <div id="itemType" class="input-field col s6">
+          <select class="browser-default">
+            <option value="" disabled selected>Choose Item Type</option>
+            <option value="top">Top</option>
+            <option value="bottom">Bottom</option>
+            <option value="dress">Dress</option>
+            <option value="outerwear">Outerwear</option>
+            <option value="shoes">Shoes - Accessories</option>
+          </select>
+        </div>
+
+        <div id="occasionType" class="input-field col s6">
+          <select class="browser-default">
+            <option value="" disabled selected>Choose Occasion</option>
+            <option value="casual">Casual</option>
+            <option value="formal">Formal</option>
+            <option value="work">Work</option>
+          </select>
+        </div>
+      </div>
+    </form>
+        <div class="col s12" style="height: 60px;">
+          <button class="btn col s6 push-s3 done">Done!</button>
+        </div>
+  </div>
+        
+</template>

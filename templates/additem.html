@@ -1,0 +1,34 @@
+
+<template name="additem">
+  <div class="valign-wrapper title-bar">
+    <span class="task-title">Add an Item</span>
+  </div>
+  <hr>
+  <div class="valign-wrapper subtitle-bar">
+    <span class="subtitle">Let's take a photo</span>
+  </div>
+
+  
+  <div class="container addItemContainer">
+    <div class="itemPhoto"><img src="{{photo}}"></div>
+  </div>
+
+  <div class="row">
+    <div class="col s12" style="height: 60px;">
+    <button class="btn col s6 push-s3 take-photo">Take a Photo</button>
+    </div>
+    <br>
+    <br>
+
+    <hr class="short-rule-add">
+      <div class="back">
+        <a class="waves-effect btn-flat toItemTag">Tag Item</a>
+      </div>
+
+      <div class="back">
+        <a class="waves-effect btn-flat" href="{{pathFor route='dashboard'}}">Back</a>
+      </div>
+
+
+  </div>
+</template>

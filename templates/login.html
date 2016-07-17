@@ -1,0 +1,23 @@
+<template name="login">
+  <div class="container">
+    <h2>Get Dressed</h2>
+  </div>
+
+  <div class="row">
+    <form class="col s12">
+        <div class="input-field col s10 push-s1">
+          <input id="email" type="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field col s10 push-s1">
+          <input id="password" type="password">
+          <label for="password">Password</label>
+        </div>
+        <button class="btn waves-effect waves-light col s8 push-s2" type="submit" name="action">Sign In</button>
+    </form>
+    <hr class="short-rule">
+      <div class="sign-up">
+        <a class="btn-flat col s4 push-s4" href="{{pathFor route='register'}}">Sign Up</a>
+      </div>
+  </div>
+</template>  

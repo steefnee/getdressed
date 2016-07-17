@@ -1,0 +1,272 @@
+.top-section {
+  height: 290px;
+  padding: 25px;
+}
+
+.dash-menu {
+  padding:0;
+  margin:0;
+  height: 267px;
+
+}
+
+.circle {
+position: relative;
+width:160px;
+height:160px;
+padding-top: 40px;
+text-align:center;
+vertical-align: middle;
+font-family: 'Parisienne', cursive;
+font-size: 50px;
+line-height: 45px;
+border-radius:50%;
+font-size:50px;
+color:#fff;
+background:#ee1987;
+margin: auto;
+
+}
+
+.user-name {
+  text-transform: uppercase;
+  font-family: 'Gotham', 'Open Sans', sans-serif;
+  color: #9e9e9e;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 2px
+}
+
+
+
+.to-do-section {
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 66px;
+}
+
+.to-do {
+  font-family: 'Bodoni', 'Times New Roman', serif;
+  font-style: italic;
+  color: black;
+  font-size: 13pt;
+  width: 230px;
+}
+
+
+.ion-ios-camera-outline, .ion-ios-heart-outline, .ion-ios-eye-outline, .ion-ios-clock-outline {
+  position: absolute;
+  right: 25px;
+  font-size: 30px;
+  color: #9e9e9e;
+}
+
+
+div {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Parisienne', cursive;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+
+hr {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #757575 ;
+  margin: 0;
+
+}
+
+
+.title-bar {
+  height: 60px;
+  background-color: white;
+
+}
+
+.subtitle-bar {
+  height: 20px;
+  background-color: #e1e1e1;
+
+}
+
+.task-title {
+  font-family: 'Bodoni', 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 18pt;
+  color: #464646;
+  margin: auto;
+}
+
+.subtitle {
+  font-family:'Gotham','Open Sans', sans-serif; 
+  font-size: 9pt;
+  letter-spacing: 2pt;
+  background-color: #e1e1e1;
+  margin: auto;
+}
+
+.button {
+  position: relative;
+  height: 80px;
+}
+
+.button-text {
+  font-family: 'Gotham','Open Sans', sans-serif;
+  font-size: 13pt;
+  color: #757575;
+  margin: auto;
+}
+
+.outfit-section {
+  height: 418px;
+}
+
+.clothingItem {
+  max-height: 100%;
+}
+
+#top { 
+  width: 50%;
+  height: 50%;
+  float: left;
+  border-right: 1px solid gray; 
+  overflow: hidden;
+}
+
+#outerwear {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+
+}
+
+#bottom {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border-top: 1px solid gray;
+  overflow: hidden;
+
+}
+
+#shoes {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border-left: 1px solid gray;
+  overflow: hidden;
+
+}
+
+.bottom-button {
+  height: 70px;
+}
+
+.ion-ios-checkmark {
+  text-align: center;
+  font-size: 48px;
+  margin: auto;
+  color: #757575;
+}
+
+.ion-ios-refresh {
+  float: left;
+  margin-left: 25px;
+  font-size: 30px;
+  color: #757575;
+}
+
+.ion-ios-close {
+  float: right;
+  margin-right: 25px;
+  font-size: 30px;
+  color: #757575;
+}
+
+.btn {
+  background: #ee1987;
+}
+
+.short-rule {
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e1;
+  top: 50px;
+  width: 100px;
+  margin: auto;
+}
+
+.short-rule-add {
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e1;
+  width: 100px;
+  margin: auto;
+  top: 10px;
+}
+
+
+.sign-up {
+  position: relative;
+  text-align: center;
+  top: 50px;
+  color: #757575
+}
+
+.back {
+  position: relative;
+  text-align: center;
+  top: 20px;
+  color: #757575
+}
+
+.left-btn {
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 70px;
+}
+
+.right-btn {
+  width: 50%;
+  float: right;
+  height: 70px;
+  border-left: 1px solid gray;
+  min-height: 70px;
+  text-align: center;
+}
+
+.take-photo {
+  position: relative;
+  margin: auto;
+  top: 20px;
+
+}
+
+.addItemContainer {
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.itemPhoto {
+  max-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+
+

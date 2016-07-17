@@ -1,0 +1,30 @@
+<template name="outfits">
+  <div class="valign-wrapper title-bar">
+    <span class="task-title">Get Dressed</span>
+  </div>
+  <hr>
+  
+  <div class="container">
+    <div class="outfit-section">
+      <div id="top">  <!--top left -->
+        <img class="clothingItem" src="{{topOnly}}">
+      </div>
+      <div id="outerwear"> <!--top right -->
+        <img class="clothingItem" src="{{outerwearOnly}}">
+      </div>
+      <div id="bottom"> <!--bottom left -->
+        <img class="clothingItem" src="{{bottomOnly}}">      
+      </div>
+      <div id="shoes"> <!--bottom right -->
+        <img class="clothingItem" src="{{shoesOnly}}">       
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="valign-wrapper bottom-button">
+    <a class="ion-ios-refresh" onClick="window.location.reload()"></a>
+    <a class="ion-ios-checkmark" href="{{pathFor route='dashboard'}}"> </a>
+    <a class="ion-ios-close" href="/occasionChoices"></a>
+  </div>
+</template>
